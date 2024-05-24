@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+ /* scrollbar  /////////////////// */
+ 
+ .app-body{
+  position: relative;
+ }
+
+
+ .smallbar{
+  width: 40px !important;
+  height: 50px;
+  background: #ff0000;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+  transition: 0.6s all ease-in-out;
+  } 
+
+  .smallbar:hover{
+    transform: scale(0.9);
+  }
+
+
+  .forward{
+    font-size: 2rem;
+  }
+
+
+
